@@ -4,9 +4,24 @@ A simple, yet inteligent javascript library for predicting your future...in emoj
 
 ## Setup & Usage
 
+### Front-end JS
+
 Download. Include `emojiscope.js`. Call public method.
 
 ```js
+emojiscope();
+//[":last_quarter_moon_with_face:", ":euro:", ":saxophone:", ":small_red_triangle:", ":green_heart:"]
+//🌜️💶🎷🔺💚
+```
+
+### NPM
+
+```bash
+npm install emojiscope --save
+```
+
+```js
+const emojiscope = require('emojiscope');
 emojiscope();
 //[":last_quarter_moon_with_face:", ":euro:", ":saxophone:", ":small_red_triangle:", ":green_heart:"]
 //🌜️💶🎷🔺💚
